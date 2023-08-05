@@ -1,0 +1,10 @@
+haarcascade_frontalface_default.xml
+shape_predictor_68_face_landmarks.dat
+Packages
+1.dlib
+2.opencv
+3.matplotlib
+4.smtplib
+5.PIL
+6.imutils
+7.gaze_tracking
