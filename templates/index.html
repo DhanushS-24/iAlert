@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eye Tracking Project</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #bdb0e9a0; /* Soothing light gray background color */
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #1fa29985; /* White background for the content */
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        .button-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .button {
+            float: left;
+            display: inline;
+            padding: 10px 20px;
+            background-color: #8d56eba7;
+            color: #fff;
+            text-decoration: none;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-right: 10px; 
+            }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the Eye Tracking Project</h1>
+        <p>Track and analyze eye movements with our advanced technology.</p>
+        <div class="button-container">
+            <form method="post" action="/start">
+                <button type="submit" class="button">Start</button>
+            </form>
+            <form method="post" action="/stop">
+                <button type="submit" class="button">Stop</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
